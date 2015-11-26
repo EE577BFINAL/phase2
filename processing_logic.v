@@ -735,7 +735,7 @@ always @(negedge clk) begin
             DM_flag <= 1'b1;
           end
           else if(count_wrt == ) begin
-            DM_flag <= 1'b0;
+            DM_flag <= 1'b0 ;
           end
           else if(count_wrt == ) begin
             ts_con<=1'b0;
